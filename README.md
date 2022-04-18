@@ -1,15 +1,15 @@
-# react-native-select-two
+# react-native-select-two-picker-color
 
 ## Component like [Select2](https://select2.org/) on web for React Native
 
-![Single select](https://raw.githubusercontent.com/xuho/demo-images/master/react-native-select2-single-select.gif)
+![Single select](https://raw.githubusercontent.com/vishnu8742/react-native-select-two/master/color.jpeg)
 
 ## Add it to your project
   - Using NPM
-    `npm install react-native-select-two`
+    `npm install react-native-select-two-picker-color`
   - or:
   - Using Yarn
-    `yarn add react-native-select-two`
+    `yarn add react-native-select-two-picker-color`
 
 
 ## Install dependencies
@@ -23,7 +23,7 @@
 ```javascript
 import React, { Component } from "react"
 import { View, Text, StyleSheet } from "react-native"
-import Select2 from "react-native-select-two"
+import Select2 from "react-native-select-two-picker-color"
 
 const mockData = [
   { id: 1, name: "React Native Developer", checked: true, color: '#096' }, // set default checked for render option item
