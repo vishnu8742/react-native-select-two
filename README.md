@@ -26,9 +26,9 @@ import { View, Text, StyleSheet } from "react-native"
 import Select2 from "react-native-select-two"
 
 const mockData = [
-  { id: 1, name: "React Native Developer", checked: true }, // set default checked for render option item
-  { id: 2, name: "Android Developer" },
-  { id: 3, name: "iOS Developer" }
+  { id: 1, name: "React Native Developer", checked: true, color: '#096' }, // set default checked for render option item
+  { id: 2, name: "Android Developer", color: '#f00' },
+  { id: 3, name: "iOS Developer", color: '#f00' }
 ]
 
 // create a component

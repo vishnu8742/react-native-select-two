@@ -13,10 +13,10 @@ const INIT_HEIGHT = height * 0.6;
 // create a component
 class Select2 extends Component {
     static defaultProps = {
-        cancelButtonText: 'Hủy',
-        selectButtonText: 'Chọn',
-        searchPlaceHolderText: "Nhập vào từ khóa",
-        listEmptyTitle: 'Không tìm thấy lựa chọn phù hợp',
+        cancelButtonText: 'Cancel',
+        selectButtonText: 'Choose',
+        searchPlaceHolderText: "Search",
+        listEmptyTitle: 'No data',
         colorTheme: '#16a45f',
         buttonTextStyle: {},
         buttonStyle: {},
@@ -105,7 +105,7 @@ class Select2 extends Component {
                 onPress={() => this.onItemSelected(item, isSelectSingle)}
                 activeOpacity={0.7}
                 style={styles.itemWrapper}>
-                <Text style={[styles.itemText, this.defaultFont]}>
+                <Text style={[styles.itemText, this.defaultFont, {color: item.color ?? '#333'}]}>
                     {item.name}
                 </Text>
                 <Icon style={styles.itemIcon}
